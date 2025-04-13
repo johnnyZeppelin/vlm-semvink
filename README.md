@@ -16,7 +16,7 @@ This is a codebase for the tests and experiments in the paper <a href="https://a
 ## ✨ Usage
 For the traditional Chinese medicine (TCM)-specific LLM BianCang, please see this link: <a href="https://github.com/QLU-NLP/BianCang" target="_blank">BianCang</a> to employ the model.
 
-In this repository, the test code files for BianCang are used to realize the inference for the specific loaded model.
+In this repository, the test code files for BianCang are used to realize the inference for the specific loaded BianCang model.
 
 The datasets used to generate questions are not included in this repository. You can find them <a href="" target="_blank">here</a>.
 
