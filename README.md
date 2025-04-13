@@ -1,22 +1,49 @@
-# Academic Project Page Template
-This is an academic paper project page template.
+# Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs
+
+<p align="center">
+    <br>
+    <img src="asset/banner.png"/>
+    <br>
+<p>
+
+This is the codebase for the experiments and tests in the paper [Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs](https://arxiv.org/abs/2504.03786).
+
+## 📖 Contents
+- [Usage](#-usage)
+- [Citation](#-citation)
 
 
-Example project pages built using this template are:
-- https://horwitz.ai/probex
-- https://vision.huji.ac.il/probegen
-- https://horwitz.ai/mother
-- https://horwitz.ai/spectral_detuning
-- https://vision.huji.ac.il/ladeda
-- https://vision.huji.ac.il/dsire
-- https://horwitz.ai/podd
-- https://dreamix-video-editing.github.io
-- https://horwitz.ai/conffusion
-- https://horwitz.ai/3d_ads/
-- https://vision.huji.ac.il/ssrl_ad
-- https://vision.huji.ac.il/deepsim
+## ✨ Usage
+For the traditional Chinese medicine (TCM)-specific LLM BianCang, please see this link: [BianCang](https://github.com/QLU-NLP/BianCang) to employ the model.
+
+In this repository, the test code files for BianCang are used to realize the inference for the specific loaded model.
+
+The datasets used to generate questions are not included in this repository. You can find them [here]().
 
 
+## 📎 Citation
+
+```bibtex
+@misc{li2025newsnowtabletscontain,
+      title={Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs}, 
+      author={Sifan Li and Yujun Cai and Bryan Hooi and Nanyun Peng and Yiwei Wang},
+      year={2025},
+      eprint={2504.03786},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.03786}
+      }
+```
+
+## Star History
+
+<a href="https://www.star-history.com/#med-llm/tcm-llm-overrely-on-names&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=med-llm/tcm-llm-overrely-on-names&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=med-llm/tcm-llm-overrely-on-names&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=med-llm/tcm-llm-overrely-on-names&type=Date" />
+ </picture>
+</a>
 
 ## Start using the template
 To start using the template click on `Use this Template`.
