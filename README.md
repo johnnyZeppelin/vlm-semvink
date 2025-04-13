@@ -1,4 +1,4 @@
-# Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs
+# Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs  <img src="asset/favicon.ico" width="36"/>
 
 <p align="center">
     <br>
@@ -6,7 +6,7 @@
     <br>
 <p>
 
-This is the codebase for the experiments and tests in the paper [Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs](https://arxiv.org/abs/2504.03786).
+This is a codebase for the tests and experiments in the paper [Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs](https://arxiv.org/abs/2504.03786).
 
 ## 📖 Contents
 - [Usage](#-usage)
