@@ -6,7 +6,7 @@
     <br>
 <p>
 
-This is a codebase for the tests and experiments in the paper [Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs](https://arxiv.org/abs/2504.03786){:target="_blank"}.
+This is a codebase for the tests and experiments in the paper <a href="https://arxiv.org/abs/2504.03786" target="_blank">Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs</a>.
 
 ## 📖 Contents
 - [Usage](#-usage)
@@ -14,11 +14,11 @@ This is a codebase for the tests and experiments in the paper [Do "New Snow Tabl
 
 
 ## ✨ Usage
-For the traditional Chinese medicine (TCM)-specific LLM BianCang, please see this link: [BianCang](https://github.com/QLU-NLP/BianCang) to employ the model.
+For the traditional Chinese medicine (TCM)-specific LLM BianCang, please see this link: <a href="https://github.com/QLU-NLP/BianCang" target="_blank">BianCang</a> to employ the model.
 
 In this repository, the test code files for BianCang are used to realize the inference for the specific loaded model.
 
-The datasets used to generate questions are not included in this repository. You can find them [here]().
+The datasets used to generate questions are not included in this repository. You can find them <a href="" target="_blank">here</a>.
 
 
 ## 📎 Citation
