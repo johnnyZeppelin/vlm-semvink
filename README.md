@@ -6,7 +6,7 @@
     <br>
 <p>
 
-This is a codebase for the tests and experiments in the paper [Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs](https://arxiv.org/abs/2504.03786{:target="_blank"}).
+This is a codebase for the tests and experiments in the paper [Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs](https://arxiv.org/abs/2504.03786){:target="_blank"}.
 
 ## 📖 Contents
 - [Usage](#-usage)
