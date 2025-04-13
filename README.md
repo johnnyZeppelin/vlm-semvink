@@ -18,7 +18,7 @@ For the traditional Chinese medicine (TCM)-specific LLM BianCang, please see thi
 
 In this repository, the test code files for BianCang are used to realize the inference for the specific loaded BianCang model.
 
-The datasets used to generate questions are not included in this repository. You can find them <a href="" target="_blank">here</a>.
+The datasets used to generate questions are not included in this repository. You can find them <a href="https://huggingface.co/datasets/med-llm/tcm-llm-overrely-on-names" target="_blank">here</a>.
 
 
 ## 📎 Citation
