@@ -1,5 +1,5 @@
-# Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs
-This is an academic paper project page of the paper <a href="https://arxiv.org/abs/2504.03786" target="_blank">Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs</a>.
+# Hidden in Plain Sight: Vision-Language Models' Blind Spot for Optical Illusions
+This is an academic paper project page of the paper <a href="https://arxiv.org/abs/2504.03786" target="_blank">Hidden in Plain Sight: Vision-Language Models' Blind Spot for Optical Illusions</a>.
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
