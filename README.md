@@ -1,5 +1,5 @@
-# Hidden in Plain Sight: Vision-Language Models' Blind Spot for Optical Illusions
-This is an academic paper project page of the paper <a href="https://arxiv.org/abs/2504.03786" target="_blank">Hidden in Plain Sight: Vision-Language Models' Blind Spot for Optical Illusions</a>.
+# SemVink: Advancing VLMs' Semantic Understanding of Optical Illusions via Visual Global Thinking
+This is an academic paper project page of the paper <a href="https://arxiv.org/abs/2504.03786" target="_blank">SemVink: Advancing VLMs' Semantic Understanding of Optical Illusions via Visual Global Thinking</a>.
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
