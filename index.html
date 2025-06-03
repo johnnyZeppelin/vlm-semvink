@@ -25,9 +25,9 @@
 
 
   <title>
-    Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs
+    Hidden in Plain Sight: Vision-Language Models' Blind Spot for Optical Illusions
   </title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="static/images/zoomout.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -152,10 +152,9 @@
         <!-- <source src="static/videos/banner_video.mp4" -->
         <!-- type="video/mp4"> -->
       <!-- </video> -->
-      <img src="static/images/f1.png" alt="MY ALT TEXT"/>
+      <img src="static/images/cases.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Large language models tend to misunderstand a Chinese drug ingredient by its name because of the literal information could be ambiguous.
-        This undermines the performance of LLMs in the traditional Chinese medicine domain.
+        Illusional images, some of which contain hidden texts and others contain hidden image within the obvious background scene.
       </h2>
     </div>
   </div>
@@ -184,14 +183,13 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">TCM Market</h2>
+      <h2 class="title is-3">Recognition Failure</h2>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/f2.png" alt="MY ALT TEXT"/>
+        <img src="static/images/problems.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          The change of the market size of Chinese proprietary drugs,
-          traditional Chinese drugs and overall traditional Chinese medicine from 2019 to 2024.
+          As one of the best state-of-the-art VLMs, o4-mini is incapable in recognizing the hidden texts within images even when the correct answers are directly prompted.
         </h2>
       </div>
   </div>
@@ -224,19 +222,14 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Overreliance on Familiar Ingredients</h2>
+      <h2 class="title is-3">Human-Like Visual Operations</h2>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/f3.png" alt="MY ALT TEXT"/>
+        <img src="static/images/methods.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          In the left figure, we calculate the frequency of all ingredients included in our dataset.
-          The x-axis value represents the oracle truth frequency according to our dataset and
-          the y-axis value represents the frequency of the ingredient appearing in the responses of the TCM-specific LLM BianCang.
-          In the right figures, we calculate the <b>precision</b> and <b>recall</b> scores of the 10 ingredients with
-          the highest oracle truth frequencies (upper) and the 10 ingredients with the lowest oracle truth frequencies (lower).
-          We can observe two distinct patterns:
-          <b>high-frequency herb amplification</b> and <b>low-frequency herb neglect</b>.
+          Two methods to help humans recognize the hidden content within the image:
+          zoom out the image to a sight from a distance and squint to observe the image to reduce the brightness to highlight the hidden content.
         </h2>
       </div>
   </div>
@@ -249,15 +242,15 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Ingredient List Verification Bias</h2>
+      <h2 class="title is-3">Zoom-Out Boosts Performance</h2>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/f4.png" alt="MY ALT TEXT"/>
+        <img src="static/images/exp.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          The accuracy score of each LLM is calculated on questions expected to get the answer "No" and "Yes", respectively.
-          The bias between them reveals that language models tend to answer with the same binary decision whatever the question is,
-          which means they do not understand the process behind the decision making.
+          The recognition accuracy across different VLMs with different methods.
+          All tested VLMs can be deemed to be incapable of recognizing the hidden content in the image.
+          With the help of zoom-out method, each tested VLM obtains a nearly 100% success rate.
         </h2>
       </div>
   </div>
@@ -270,16 +263,17 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Results of Ingredient List Verification</h2>
+      <h2 class="title is-3">Visualized Embedding Features</h2>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/f3.png" alt="MY ALT TEXT"/>
+        <img src="static/images/visual.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          None of the tested models could reliably handle these queries.
-          All models can be regarded as ignorant about the verification of the ingredients list.
-          Their response patterns suggest a lack of an effective knowledge system,
-          making them unsuitable for medical usage where accurate and trustworthy information are required.
+          The visualization of the embeddings of the input prompts with an illusional image.
+          In the conditions of the left one (6 consecutive image tokens as in the consecutive yellow region in the heatmap) and
+          center one (10 consecutive image tokens), VLMs can recognize the hidden content.
+          In the condition of the right one (666 consecutive image tokens), VLMs cannot find the hidden content.
+          This demonstrates the redundant repeated information of the image is the key to obstruct finding the hidden content.
         </h2>
       </div>
   </div>
