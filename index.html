@@ -55,7 +55,7 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">
-              Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs
+              Hidden in Plain Sight: Vision-Language Models' Blind Spot for Optical Illusions
             </h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
@@ -65,12 +65,12 @@
                 <span class="author-block">
                   <a href="https://vanoracai.github.io/" target="_blank">
                     Yujun Cai</a><sup>2</sup>,</span>
-                  <span class="author-block">
+<!--                   <span class="author-block">
                     <a href="https://bhooi.github.io/" target="_blank">
                       Bryan Hooi</a><sup>3</sup>,</span>
                     <span class="author-block">
                       <a href="https://violetpeng.github.io/" target="_blank">
-                        Nanyun Peng</a><sup>4</sup>,</span>
+                        Nanyun Peng</a><sup>4</sup>,</span> -->
                       <span class="author-block">
                         <a href="https://wangywust.github.io/" target="_blank">
                           Yiwei Wang</a><sup>5</sup>,</span>
@@ -81,9 +81,9 @@
                     <span class="author-block">
                       <sup>1</sup>Liaoning University,
                       <sup>2</sup>University of Queensland, 
-                      <sup>3</sup>National University of Singapore, 
-                      <sup>4</sup>UCLA, 
-                      <sup>5</sup>UC Merced
+<!--                       <sup>3</sup>National University of Singapore, 
+                      <sup>4</sup>UCLA,  -->
+                      <sup>3</sup>UC Merced
                       <!-- <br>Conferance name and year -->
                     </span>
                     <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
@@ -104,7 +104,7 @@
 
                 <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/med-llm/tcm-llm-overrely-on-names" target="_blank"
+                    <a href="https://github.com/johnnyZeppelin/vlm-zoom-out" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -170,22 +170,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Traditional Chinese Medicine (TCM) has seen increasing adoption in healthcare,
-            with specialized Large Language Models (LLMs) emerging to support clinical applications.
-            A fundamental requirement for these models is accurate identification of TCM drug ingredients.
-            In this paper, we evaluate how general and TCM-specialized LLMs perform when identifying ingredients of Chinese drugs.
-            Our systematic analysis reveals consistent failure patterns:
-            models often interpret drug names literally,
-            overuse common herbs regardless of relevance,
-            and exhibit erratic behaviors when faced with unfamiliar formulations.
-            LLMs also fail to understand the verification task.
-            These findings demonstrate that current LLMs rely primarily on drug names rather than
-            possessing systematic pharmacological knowledge.
-            To address these limitations, we propose a Retrieval Augmented Generation (RAG) approach focused on ingredient names.
-            Experiments across 220 TCM formulations show our method significantly improves accuracy from
-            approximately 50% to 82% in ingredient verification tasks.
-            Our work highlights critical weaknesses in current TCM-specific LLMs and offers a practical solution for
-            enhancing their clinical reliability.
+            Vision-language models (VLMs) excel in semantic tasks but falter at a core human capability: detecting hidden content in optical illusions or AI-generated images through perceptual adjustments like zooming. We introduce HC-Bench, a benchmark of 112 images with hidden text, objects, and illusions, revealing that leading VLMs achieve near-zero accuracy (0–5.36\%)—even with explicit prompting. Humans resolve such ambiguities instinctively, yet VLMs fail due to an overreliance on high-level semantics. Strikingly, simply scaling images to low resolutions (32–128 pixels) unlocks >99\% accuracy by eliminating redundant visual noise. This exposes a critical architectural flaw: VLMs prioritize abstract reasoning over low-level visual operations crucial for real-world robustness. Our work urges a shift toward hybrid models integrating multi-scale processing, bridging the gap between computational vision and human cognition for applications in medical imaging, security, and beyond.
           </p>
         </div>
       </div>
@@ -243,7 +228,7 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/f2.png" alt="MY ALT TEXT"/>
+        <img src="static/images/f3.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           In the left figure, we calculate the frequency of all ingredients included in our dataset.
           The x-axis value represents the oracle truth frequency according to our dataset and
