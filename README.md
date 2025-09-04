@@ -22,7 +22,7 @@ This is a codebase for the tests and experiments in the paper <a href="https://a
 
 
 ## ✨ Usage
-For the HC-Bench dataset, please see <a href="https://hf" target="_blank">this repository on Hugging Face</a>.
+For the HC-Bench dataset, please see <a href="https://huggingface.co/datasets/JohnnyZeppelin/HC-Bench" target="_blank">this repository on Hugging Face</a>.
 
 The HC-Bench or any other hidden-content images can be put in ./data/
 
