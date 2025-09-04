@@ -93,7 +93,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/2504.03786" target="_blank"
+                        <a href="https://arxiv.org/abs/2506.02803" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -114,7 +114,7 @@
                 </span>
                     <!-- Supplementary PDF link -->
                     <span class="link-block">
-                      <a href="https://huggingface.co/datasets/med-llm/tcm-llm-overrely-on-names" target="_blank"
+                      <a href="https://huggingface.co/datasets/JohnnyZeppelin/HC-Bench" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                        <!-- <i class="fa fa-database"></i> -->
@@ -126,7 +126,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/2504.03786" target="_blank"
+                  <a href="https://arxiv.org/abs/2506.02803" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -154,7 +154,7 @@
       <!-- </video> -->
       <img src="static/images/cases.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Illusional images, some of which contain hidden texts and others contain hidden images within the obvious background scenes.
+        Illusional images can contain hidden texts or hidden images within the obvious background scenes.
       </h2>
     </div>
   </div>
@@ -169,7 +169,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-          Vision-language models (VLMs) excel in semantic tasks but falter at a core human capability: detecting hidden content in optical illusions or AI-generated images through perceptual adjustments like zooming. We introduce HC-Bench, a benchmark of 112 images with hidden text, objects, and illusions, revealing that leading VLMs achieve near-zero accuracy (0–5.36%)—even with explicit prompting. Humans resolve such ambiguities instinctively, yet VLMs fail due to an overreliance on high-level semantics. Strikingly, we propose SemVink (Semantic Visual Thinking) by simply scaling images to low resolutions (32–128 pixels), which unlocks >99% accuracy by eliminating redundant visual noise. This exposes a critical architectural flaw: VLMs prioritize abstract reasoning over low-level visual operations crucial for real-world robustness. Our work urges a shift toward hybrid models integrating multi-scale processing, bridging the gap between computational vision and human cognition for applications in medical imaging, security, and beyond.  
+          Vision-language models (VLMs) excel in semantic tasks but falter at a core human capability: detecting hidden content in optical illusions or AI-generated images through perceptual adjustments like zooming. We introduce HC-Bench, a benchmark of 112 images with hidden texts, objects, and illusions, revealing that leading VLMs achieve near-zero accuracy (0–5.36%) even with explicit prompting. Humans resolve such ambiguities instinctively, yet VLMs fail due to an overreliance on high-level semantics. Strikingly, we propose SemVink (Semantic Visual Thinking) by simply scaling images to low resolutions, which unlocks over 99% accuracy by eliminating redundant visual noise. This exposes a critical architectural flaw: VLMs prioritize abstract reasoning over low-level visual operations crucial for real-world robustness. Our work urges a shift toward hybrid models integrating multi-scale processing, bridging the gap between computational vision and human cognition for applications in medical imaging, security, and beyond.
           </p>
         </div>
       </div>
@@ -187,7 +187,7 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/problems.png" alt="MY ALT TEXT"/>
+        <img src="static/images/problem.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           As one of the best state-of-the-art VLMs, o4-mini is incapable in recognizing the hidden texts within images even when the correct answers are directly prompted.
         </h2>
@@ -246,7 +246,7 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/exp.png" alt="MY ALT TEXT"/>
+        <img src="static/images/expe.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           The recognition accuracy across different VLMs with different methods.
           All tested VLMs can be deemed to be incapable of recognizing the hidden content in the image.
@@ -303,15 +303,15 @@
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>
-        @misc{li2025newsnowtabletscontain,
-          title={Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs}, 
-          author={Sifan Li and Yujun Cai and Bryan Hooi and Nanyun Peng and Yiwei Wang},
-          year={2025},
-          eprint={2504.03786},
-          archivePrefix={arXiv},
-          primaryClass={cs.CL},
-          url={https://arxiv.org/abs/2504.03786}
-        }
+        @misc{li2025semvinkadvancingvlmssemantic,
+      title={SemVink: Advancing VLMs' Semantic Understanding of Optical Illusions via Visual Global Thinking}, 
+      author={Sifan Li and Yujun Cai and Yiwei Wang},
+      year={2025},
+      eprint={2506.02803},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.02803}, 
+}
       </code></pre>
     </div>
 </section>
