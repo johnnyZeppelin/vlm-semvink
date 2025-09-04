@@ -6,6 +6,8 @@
     <br>
 <p>
 
+---
+
 <p align="center">
     <br>
     <img src="asset/problem.png"/>
@@ -28,9 +30,9 @@ In this repository, the inference time zoom-out and squint methods are provided 
 
 You can edit the model and dataset parts in main.py and run this inference-time solution by
 
-<!-- ```bash -->
->python ./inference/main.py
-<!-- ``` -->
+```bash
+python ./inference/main.py
+```
 
 
 ## 📎 Citation
