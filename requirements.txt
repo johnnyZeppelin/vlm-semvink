@@ -1,0 +1,6 @@
+opencv-python
+pillow
+numpy
+transformers
+torch
+qwen-vl-utils
