@@ -1,12 +1,18 @@
-# SemVink: Advancing VLMs' Semantic Understanding of Optical Illusions via Visual Global Thinking  <img src="asset/favicon.ico" width="36"/>
+# SemVink: Advancing VLMs' Semantic Understanding of Optical Illusions via Visual Global Thinking  <img src="asset/zoomout.ico" width="36"/>
 
 <p align="center">
     <br>
-    <img src="asset/banner.png"/>
+    <img src="asset/cases.png"/>
     <br>
 <p>
 
-This is a codebase for the tests and experiments in the paper <a href="https://arxiv.org/abs/2504.03786" target="_blank">Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs</a>.
+<p align="center">
+    <br>
+    <img src="asset/problem.png"/>
+    <br>
+<p>
+
+This is a codebase for the tests and experiments in the paper <a href="https://arxiv.org/abs/2506.02803" target="_blank">SemVink: Advancing VLMs' Semantic Understanding of Optical Illusions via Visual Global Thinking</a>, which is accepted as a main conference long paper to EMNLP 2025.
 
 ## 📖 Contents
 - [Usage](#-usage)
@@ -14,34 +20,40 @@ This is a codebase for the tests and experiments in the paper <a href="https://a
 
 
 ## ✨ Usage
-For the traditional Chinese medicine (TCM)-specific LLM BianCang, please see this link: <a href="https://github.com/QLU-NLP/BianCang" target="_blank">BianCang</a> to employ the model.
+For the HC-Bench dataset, please see <a href="https://hf" target="_blank">this repository on Hugging Face</a>.
 
-In this repository, the test code files for BianCang are used to realize the inference for the specific loaded BianCang model.
+The HC-Bench or any other hidden-content images can be put in ./data/
 
-The datasets used to generate questions are not included in this repository. You can find them <a href="https://huggingface.co/datasets/med-llm/tcm-llm-overrely-on-names" target="_blank">here</a>.
+In this repository, the inference time zoom-out and squint methods are provided in inference/main.py.
+
+You can edit the model and dataset parts in main.py and run this inference-time solution by
+
+<!-- ```bash -->
+>python ./inference/main.py
+<!-- ``` -->
 
 
 ## 📎 Citation
 
 ```bibtex
-@misc{li2025newsnowtabletscontain,
-      title={Do "New Snow Tablets" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs}, 
-      author={Sifan Li and Yujun Cai and Bryan Hooi and Nanyun Peng and Yiwei Wang},
+@misc{li2025semvinkadvancingvlmssemantic,
+      title={SemVink: Advancing VLMs' Semantic Understanding of Optical Illusions via Visual Global Thinking}, 
+      author={Sifan Li and Yujun Cai and Yiwei Wang},
       year={2025},
-      eprint={2504.03786},
+      eprint={2506.02803},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.03786}
-      }
+      url={https://arxiv.org/abs/2506.02803}, 
+}
 ```
 
 ## Star History
 
-<a href="https://www.star-history.com/#med-llm/tcm-llm-overrely-on-names&Date">
+<a href="https://www.star-history.com/#johnnyZeppelin/vlm-semvink&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=med-llm/tcm-llm-overrely-on-names&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=med-llm/tcm-llm-overrely-on-names&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=med-llm/tcm-llm-overrely-on-names&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=johnnyZeppelin/vlm-semvink&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=johnnyZeppelin/vlm-semvink&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=johnnyZeppelin/vlm-semvink&type=Date" />
  </picture>
 </a>
 
