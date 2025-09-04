@@ -1,5 +1,5 @@
 # SemVink: Advancing VLMs' Semantic Understanding of Optical Illusions via Visual Global Thinking
-This is an academic paper project page of the paper <a href="https://arxiv.org/abs/2504.03786" target="_blank">SemVink: Advancing VLMs' Semantic Understanding of Optical Illusions via Visual Global Thinking</a>.
+This is an academic paper project page of the paper <a href="https://arxiv.org/abs/2506.02803" target="_blank">SemVink: Advancing VLMs' Semantic Understanding of Optical Illusions via Visual Global Thinking</a> which is a main conference long paper accepted to EMNLP 2025.
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
